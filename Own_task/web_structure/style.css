@@ -1,0 +1,158 @@
+.header {
+	background-color: rgb(180, 219, 233);
+	display: flex;
+}
+
+.header img {
+	width: 100px;
+	height: 90px;
+}
+
+.header>.compny {
+	background-color: rgb(185, 247, 226);
+	font-size: 30px;
+	padding: 25px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.nav {
+	background-color: rgb(232, 192, 229);
+	padding: 20px 0px;
+	text-align: center;
+
+}
+
+.nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0%;
+	padding: 0%;
+
+}
+
+.nav ul li {
+	font-size: x-large;
+	padding: 10px;
+	gap: 120px;
+	display: inline;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	font-weight: 400;
+	font-family: cursive;
+}
+
+
+.section {
+	background-color: rgb(210, 201, 247);
+	text-align: center;
+}
+
+.section h1 {
+	text-align: center;
+	font-family: cursive;
+	margin: 0%;
+	padding: 0%;
+}
+
+.section table {
+	/* border: 2px groove cornflowerblue; */
+	width: 80%;
+	padding: 20px 690px;
+	/* margin: auto; */
+	margin: auto;
+	font-size: 22px;
+	font-family: cursive;
+	padding: 20px 45px;
+
+}
+
+.section table input {
+	height: 30px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 5px solid #000;
+	outline: none;
+	border-radius: 15px;
+
+}
+
+
+/*  CARD SECTION.....*/
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	padding: 20px;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 100px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	width: 240px;
+	text-align: center;
+	padding: 10px;
+}
+
+.card img {
+	width: 200px;
+	border-radius: 70px;
+	border: 5px dotted rgb(173, 230, 185);
+	transition: transform 0.3s;
+}
+
+.card img:hover {
+	transform: scale(1.05);
+	border: 5px dotted rgb(173, 183, 230);
+
+}
+
+.card div {
+	padding: 10px;
+}
+
+.card button {
+	background-color: rgb(73, 182, 73);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.card button:hover {
+	background-color: rgb(54, 155, 54);
+}
+
+
+.footer{
+	background-color: lightslategray;
+	height: 80px;
+
+}
+
+.footer p{
+	color: #fff;
+	font-size: larger;
+	font-family: cursive;
+	text-align: center;
+	padding: 20px;
+	transition: 1s;
+}
+
+.footer p:hover{
+	color: rgb(221, 193, 248);
+	font-size: x-large;
+}

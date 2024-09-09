@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset default margins and paddings */
+body, ul {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#H{
+	background-image: url('./hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Style for the navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #e9f2de; */
+	background-color: #00000028;
+	
+    padding: 10px 20px; /* Padding around the navbar */
+}
+
+/* Style for the logo and text */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Height of the logo */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text a{
+    color: #ff0000; /* White text color */
+	text-shadow: 0 0 3px black;
+    font-size: 24px; /* Font size for the text */
+    font-weight: bold; /* Make the text bold */
+	text-decoration: none;
+}
+
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none; /* Remove bullet points from list */
+    display: flex; /* Align items horizontally */
+}
+
+.nav-links li {
+    margin-left: 20px; /* Space between each navigation link */
+	margin: 5px 20px 0px 20px; /* 10px top, 20px right, 30px bottom, 40px left */
+
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000000; /* White text color */
+    font-size: x-large; /* Font size for the links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+    color: #7d1893; /* Light grey color on hover */
+}
+
+
+.btn{
+	border-radius: 5px;
+	background-color: rgb(242, 210, 178);
+	font-size: large;
+	width: 150px;
+	height: 40px;
+}
+.main{
+	padding: 200px;
+	
+	
+}
+
+.xln{
+   font-size: large;
+   color: rgb(250, 107, 82)
+}
+
+.yln{
+	font-size: xx-large;
+	font-weight: bolder;
+	color: rgb(56, 56, 139);
+}
+
+.zln{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.hbtn button
+{
+    width: 102px;
+	height: 42px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.xbtn{
+	background-color: rgb(234, 146, 130);
+}
+
+.xbtn:hover{
+	background-color: rgb(243, 136, 117);
+}
+
+.ybtn{
+	background-color: rgb(197, 255, 196);
+}
+
+.ybtn:hover{
+	background-color: rgb(170, 247, 169);
+}

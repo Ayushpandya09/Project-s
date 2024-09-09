@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+
+}
+
+body {
+    background: url('../netflix/imgs/net.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    /* float: right; */
+    width: 100%;
+    height: 80px;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 10px;
+    margin-left: 150px;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 120px;
+}
+
+/* .lft-content{
+    /* margin-right: 120px; *
+
+} */
+
+
+.lang-part {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 18px;
+    border-radius: 8.8px;
+
+}
+
+.lang-part select {
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 20px;
+    border-radius: 1px;
+    color: white;
+}
+
+.btn-part input {
+    width: 90px;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    background-color: #D81F26;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+}
+
+
+/*Hero part*/
+
+.hero {
+    color: white;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding-left: 500px;
+    padding-top: 90px;
+    justify-content: center;
+}
+
+.common-line {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.hero .line-1 {
+    margin-left: 100px;
+}
+
+.hero .line-2 {
+    margin-left: 150px;
+}
+
+.hero .line-3 {
+    margin-left: 250px;
+}
+
+.hero .line-4 {
+    font-size: 20px;
+    padding-left: 160px;
+    margin: 20px;
+}
+
+.hero .line-5 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.box1 {
+    padding: 15px;
+    margin-left: 20px;
+    
+
+}
+
+.box1 input {
+    height: 60px;
+    width: 400px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 0.10px solid white;
+    border-radius: 9px;
+}
+
+.box1 button {
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #D81F26;
+    color: white;
+    border: 0.1px solid white;
+    border-radius: 9px;
+}
